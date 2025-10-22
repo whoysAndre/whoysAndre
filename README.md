@@ -46,7 +46,7 @@
 const andre: Developer = {
   nombre: "André Rodrigo",
   ubicacion: "Perú 🇵🇪",
-  rol: "Full Stack Developer",
+  rol: "Desarrollador en Crecimiento",
   mentalidad: ["Constancia", "Disciplina", "0 Conformidad"],
   caracteristicas: {
     aprendizaje: "Autodidacta 📚",
@@ -57,17 +57,17 @@ const andre: Developer = {
     espanol: "Nativo",
     ingles: "Intermedio 🇬🇧"
   },
-  codigoEstilo: {
-    arquitectura: "Clean Architecture",
-    principios: ["SOLID", "DRY", "KISS"],
-    testing: "TDD cuando es posible",
-    documentacion: "Clara y concisa"
+  nivelActual: {
+    experiencia: "En desarrollo constante",
+    fortalezas: ["Node.js", "TypeScript", "React", "Bases de datos"],
+    aprendiendo: ["Arquitectura limpia", "Patrones de diseño", "NestJS"],
+    filosofia: "Cada día aprendo algo nuevo"
   },
   objetivos2025: [
-    "🎯 Dominar patrones avanzados de arquitectura",
-    "🌟 Contribuir a proyectos open source",
-    "🚀 Construir productos escalables e innovadores",
-    "🔥 Nunca dejar de aprender"
+    "📚 Profundizar en arquitectura de software",
+    "🌟 Construir proyectos más complejos",
+    "🚀 Mejorar mis skills en cada tecnología",
+    "🔥 Nunca dejar de aprender y practicar"
   ]
 };
 ```
@@ -156,16 +156,16 @@ const andre: Developer = {
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=whoysAndre&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFA500&text_color=FFF"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoysAndre&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFA500&text_color=FFF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFF"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=whoysAndre&theme=radical&hide_border=true&background=0D1117&stroke=FF4500&ring=FF4500&fire=FFA500&currStreakLabel=FFF" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO&theme=radical&hide_border=true&background=0D1117&stroke=FF4500&ring=FF4500&fire=FFA500&currStreakLabel=FFF" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=whoysAndre&theme=redical&hide_border=true&bg_color=0D1117&color=FF4500&line=FFA500&point=ffffff&area=true" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TU_USUARIO&theme=redical&hide_border=true&bg_color=0D1117&color=FF4500&line=FFA500&point=ffffff&area=true" alt="Contribution Graph"/>
 </div>
 
 <div align="center">
@@ -180,7 +180,7 @@ const andre: Developer = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://github-profile-trophy.vercel.app/?username=whoysAndre&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="Trofeos"/>
+<img src="https://github-profile-trophy.vercel.app/?username=TU_USUARIO&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="Trofeos"/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -267,7 +267,7 @@ graph TB
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/rodrigo-aquiño-valdez-5a314624b)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF4500?style=for-the-badge&logo=vercel&logoColor=white)](https://rodrigoaquinovalportfolio.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF4500?style=for-the-badge&logo=vercel&logoColor=white)]([https://tu-portfolio.com](https://rodrigoaquinovalportfolio.netlify.app/))
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yellowcata2121@gmail.com)
 
 
@@ -317,17 +317,6 @@ La constancia y la disciplina inquebrantable<br>que me impulsan a superar cualqu
 </tr>
 </table>
 
----
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-</div>
-
----
 
 <div align="center">
 
@@ -337,7 +326,7 @@ La constancia y la disciplina inquebrantable<br>que me impulsan a superar cualqu
 
 <br>
 
-![](https://komarev.com/ghpvc/?username=whoysAndre&style=for-the-badge&color=FF4500&label=🔥+PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=TU_USUARIO&style=for-the-badge&color=FF4500&label=🔥+PROFILE+VIEWS)
 
 <br>
 
