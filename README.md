@@ -156,16 +156,16 @@ const andre: Developer = {
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFA500&text_color=FFF"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=whoysAndre&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFA500&text_color=FFF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoysAndre&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFF"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO&theme=radical&hide_border=true&background=0D1117&stroke=FF4500&ring=FF4500&fire=FFA500&currStreakLabel=FFF" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=whoysAndre&theme=radical&hide_border=true&background=0D1117&stroke=FF4500&ring=FF4500&fire=FFA500&currStreakLabel=FFF" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TU_USUARIO&theme=redical&hide_border=true&bg_color=0D1117&color=FF4500&line=FFA500&point=ffffff&area=true" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=whoysAndre&theme=redical&hide_border=true&bg_color=0D1117&color=FF4500&line=FFA500&point=ffffff&area=true" alt="Contribution Graph"/>
 </div>
 
 <div align="center">
@@ -180,7 +180,7 @@ const andre: Developer = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://github-profile-trophy.vercel.app/?username=TU_USUARIO&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="Trofeos"/>
+<img src="https://github-profile-trophy.vercel.app/?username=whoysAndre&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="Trofeos"/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -326,7 +326,7 @@ La constancia y la disciplina inquebrantable<br>que me impulsan a superar cualqu
 
 <br>
 
-![](https://komarev.com/ghpvc/?username=TU_USUARIO&style=for-the-badge&color=FF4500&label=🔥+PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=whoysAndre&style=for-the-badge&color=FF4500&label=🔥+PROFILE+VIEWS)
 
 <br>
 
