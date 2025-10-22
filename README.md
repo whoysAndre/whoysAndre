@@ -266,10 +266,10 @@ graph TB
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_LINKEDIN)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF4500?style=for-the-badge&logo=vercel&logoColor=white)](https://tu-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-email@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TU_TWITTER)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/rodrigo-aquiño-valdez-5a314624b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF4500?style=for-the-badge&logo=vercel&logoColor=white)](https://rodrigoaquinovalportfolio.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yellowcata2121@gmail.com)
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -322,8 +322,6 @@ La constancia y la disciplina inquebrantable<br>que me impulsan a superar cualqu
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-![Snake animation](https://github.com/whoysAndre/whoysAndre/blob/output/github-contribution-grid-snake-dark.svg)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
