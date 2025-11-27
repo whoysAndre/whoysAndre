@@ -59,8 +59,8 @@ const andre: Developer = {
   },
   nivelActual: {
     experiencia: "En desarrollo constante",
-    fortalezas: ["Node.js", "TypeScript", "React", "Bases de datos"],
-    aprendiendo: ["Arquitectura limpia", "Patrones de diseño", "NestJS"],
+    fortalezas: ["Node.js", "TypeScript", "React", "Bases de datos", "NestJS"],
+    aprendiendo: ["Arquitectura limpia", "Patrones de diseño", "Microservicios"],
     filosofia: "Cada día aprendo algo nuevo"
   },
   objetivos2025: [
