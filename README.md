@@ -63,7 +63,7 @@ const andre: Developer = {
     aprendiendo: ["Arquitectura limpia", "Patrones de diseño", "Microservicios"],
     filosofia: "Cada día aprendo algo nuevo"
   },
-  objetivos2025: [
+  objetivos2026: [
     "📚 Profundizar en arquitectura de software",
     "🌟 Construir proyectos más complejos",
     "🚀 Mejorar mis skills en cada tecnología",
