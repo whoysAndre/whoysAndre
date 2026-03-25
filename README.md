@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=André%20Rodrigo&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Java%20Spring%20Boot%20|%20TypeScript&descAlignY=60&descAlign=50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=André%20Rodrigo&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20|%20NestJS%20·%20Spring%20Boot%20|%20TypeScript%20·%20Java&descAlignY=60&descAlign=50"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2000&pause=1000&color=FF4500&center=true&vCenter=true&random=false&width=800&lines=Full+Stack+Developer+%F0%9F%9A%80;Java+Spring+Boot+%7C+Next.js+%7C+TypeScript;Integraci%C3%B3n+de+IA+con+Spring+AI+%2B+Groq;Docker+%7C+PostgreSQL+%7C+JWT+Security;Siempre+aprendiendo%2C+siempre+construyendo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=1000&color=FF4500&center=true&vCenter=true&random=false&width=900&lines=Backend+Developer+%F0%9F%9A%80;NestJS+%7C+Spring+Boot+%7C+TypeScript+%7C+Java;React+%7C+Next.js+como+complemento+frontend;Integraci%C3%B3n+de+IA+con+Groq+%2B+Spring+AI;Docker+%7C+PostgreSQL+%7C+JWT+Security;Siempre+aprendiendo%2C+siempre+construyendo)](https://git.io/typing-svg)
 
 </div>
 
@@ -21,36 +21,29 @@
 
 ## 👋 Sobre Mí
 
-```java
-@Component
-public class AndreRodrigo implements Developer {
+```typescript
+const andreRodrigo = {
+  nombre:    "André Rodrigo",
+  ubicacion: "Lima, Perú 🇵🇪",
+  rol:       "Backend Developer",
 
-    private final String nombre     = "André Rodrigo";
-    private final String ubicacion  = "Perú 🇵🇪";
-    private final String rol        = "Full Stack Developer";
+  backend: {
+    node: ["NestJS", "TypeScript", "TypeORM", "JWT", "Passport.js", "Swagger"],
+    java: ["Spring Boot 3", "Spring Security", "Spring AI", "JPA/Hibernate", "Maven"],
+  },
 
-    private final List<String> backend = List.of(
-        "Java", "Spring Boot", "Spring Security", "Spring AI",
-        "JWT", "JPA/Hibernate", "REST APIs"
-    );
+  frontend:  ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadcn/UI"],
 
-    private final List<String> frontend = List.of(
-        "Next.js", "React", "TypeScript", "Tailwind CSS"
-    );
+  databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
 
-    private final List<String> devops = List.of(
-        "Docker", "Docker Compose", "Render", "Vercel", "Neon"
-    );
+  devops:    ["Docker", "Docker Compose", "GitHub Actions", "AWS (EC2, S3)", "Render", "Vercel"],
 
-    private final List<String> aprendiendo = List.of(
-        "Arquitectura limpia", "Microservicios", "Testing con JUnit"
-    );
+  ia:        ["Groq (llama-3.1)", "Spring AI", "Procesamiento asíncrono", "Pusher"],
 
-    @Override
-    public String getFilosofia() {
-        return "Cada día construyo algo real que puedo mostrar";
-    }
-}
+  aprendiendo: ["Arquitectura limpia", "Microservicios", "Testing (Jest / JUnit)"],
+
+  filosofia: (): string => "Cada día construyo algo real que puedo mostrar",
+};
 ```
 
 ---
@@ -59,30 +52,37 @@ public class AndreRodrigo implements Developer {
 
 <div align="center">
 
-### ☕ Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+### ⚡ Backend Node
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![TypeORM](https://img.shields.io/badge/TypeORM-FE0902?style=for-the-badge&logo=typeorm&logoColor=white)
+
+### ☕ Backend Java
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
 ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ### 🎨 Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Shadcn](https://img.shields.io/badge/Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 
 ### 🗄️ Bases de Datos
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ### 🚀 DevOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 ### 🤖 IA & Tiempo Real
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
@@ -95,19 +95,49 @@ public class AndreRodrigo implements Developer {
 ## 🚀 Proyectos Destacados
 
 ### 🧠 Taskly — AI-Powered Task Manager
-> Gestor de tareas con priorización automática por IA en tiempo real
+> Gestor de tareas con priorización automática por IA y Kanban en tiempo real
 
-**Stack:** Java · Spring Boot · Spring AI · Groq · PostgreSQL · Next.js · Docker · JWT
+**Stack:** Java 21 · Spring Boot 3 · Spring AI · Groq · PostgreSQL · Next.js · Docker · JWT · Pusher
 
-- Integración con **Groq (llama-3.1-8b-instant)** para priorizar tareas automáticamente con score del 1-10
-- Autenticación segura con **Spring Security + JWT**
+- Integración con **Groq (llama-3.1)** para priorizar tareas con score del 1-10 y justificación en español
+- Autenticación segura con **Spring Security + JWT** y canales privados con **Pusher**
 - Procesamiento asíncrono con **@Async** — la IA corre en segundo plano sin bloquear al usuario
-- **Kanban con drag & drop** — arrastra tarjetas para cambiar estados, sincronizado con la DB
-- Dockerizado con **Docker Compose** y desplegado en **Render + Vercel + Neon**
+- **Kanban con drag & drop** (dnd-kit) sincronizado con la base de datos en tiempo real
+- Dockerizado con **multi-stage Dockerfile** y desplegado en **Render + Vercel + Neon**
 
 [![Backend](https://img.shields.io/badge/Backend-Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot)](https://github.com/whoysAndre/taskly-back)
 [![Frontend](https://img.shields.io/badge/Frontend-Next.js-000000?style=for-the-badge&logo=next.js)](https://github.com/whoysAndre/taskly-front)
 [![Demo](https://img.shields.io/badge/Demo-Live-FF4500?style=for-the-badge&logo=vercel)](https://taskly-front.vercel.app)
+
+---
+
+### 📅 AppCitas — Sistema de Reserva de Citas
+> API REST para gestión de citas en negocios como barberías y clínicas
+
+**Stack:** NestJS · TypeScript · TypeORM · PostgreSQL · JWT · Docker · React · Tailwind CSS · Swagger
+
+- Autenticación con **JWT** y roles diferenciados (ADMIN, CLIENTE, PROFESIONAL)
+- Disponibilidad dinámica de horarios con lógica de negocio robusta
+- Documentación interactiva con **Swagger/OpenAPI** desplegada en producción
+- Arquitectura modular en capas con validaciones con **class-validator**
+- Contenedorizado con **Docker Compose** — levantable en cualquier máquina en 2 minutos
+
+[![Backend](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs)](https://github.com/whoysAndre)
+[![Docs](https://img.shields.io/badge/Swagger-Docs-85EA2D?style=for-the-badge&logo=swagger)](https://github.com/whoysAndre)
+
+---
+
+### 💊 FarmaApp — Sistema de Gestión de Farmacia
+> API REST completa para control de inventario, ventas y roles
+
+**Stack:** Java 21 · Spring Boot 3 · Spring Security · JWT · PostgreSQL · Docker
+
+- API REST con autenticación **stateless JWT** y filtro personalizado `JwtAuthenticationFilter`
+- Autorización basada en roles (ADMIN / USER) con **@PreAuthorize**
+- Módulo de ventas con descuento automático de stock y registro histórico inmutable
+- Modelo relacional con 5 entidades optimizado con **JOIN FETCH** para evitar el problema N+1
+
+[![Repo](https://img.shields.io/badge/Repositorio-GitHub-100000?style=for-the-badge&logo=github)](https://github.com/whoysAndre)
 
 ---
 
@@ -130,13 +160,13 @@ public class AndreRodrigo implements Developer {
 
 | Área | Skills |
 |------|--------|
-| **Backend Java** | Spring Boot · Spring Security · Spring AI · JPA · JWT · REST APIs |
-| **Backend Node** | NestJS · Express · TypeORM |
-| **Frontend** | Next.js · React · TypeScript · Tailwind CSS · React Hook Form |
-| **Base de datos** | PostgreSQL · MongoDB · MySQL · Neon |
-| **DevOps** | Docker · Docker Compose · Render · Vercel · GitHub Actions |
-| **IA** | Spring AI · Groq · Procesamiento async · Prompt engineering |
-| **Seguridad** | JWT · Spring Security · BCrypt · Canales privados Pusher |
+| **Backend Node** | NestJS · TypeScript · TypeORM · JWT · Passport.js · class-validator · Swagger |
+| **Backend Java** | Spring Boot 3 · Spring Security · Spring AI · JPA/Hibernate · JWT · Maven |
+| **Frontend** | Next.js · React · TypeScript · Tailwind CSS · Shadcn/UI · React Hook Form · Zod |
+| **Base de datos** | PostgreSQL · MongoDB · MySQL · Redis · Neon |
+| **DevOps** | Docker · Docker Compose · GitHub Actions · AWS (EC2, S3) · Render · Vercel |
+| **IA & Tiempo Real** | Groq · Spring AI · Procesamiento async · Pusher · WebSockets |
+| **Seguridad** | JWT · Spring Security · Passport.js · BCrypt · Guards · Roles |
 
 </div>
 
@@ -144,14 +174,15 @@ public class AndreRodrigo implements Developer {
 
 ## 🌱 Roadmap 2026
 
-- [x] Java + Spring Boot desde cero
-- [x] Spring Security + JWT
+- [x] NestJS + TypeScript desde cero
+- [x] Spring Boot + Spring Security + JWT
 - [x] Integración de IA con Spring AI + Groq
 - [x] Docker + Docker Compose
 - [x] Deploy fullstack en producción
-- [ ] Testing con JUnit + Mockito
-- [ ] Microservicios con Spring Cloud
-- [ ] CI/CD con GitHub Actions
+- [x] TypeORM + PostgreSQL
+- [ ] Testing con Jest (NestJS) y JUnit (Spring)
+- [ ] Microservicios con NestJS / Spring Cloud
+- [ ] CI/CD completo con GitHub Actions
 
 ---
 
