@@ -137,7 +137,7 @@ const andreRodrigo = {
 - Módulo de ventas con descuento automático de stock y registro histórico inmutable
 - Modelo relacional con 5 entidades optimizado con **JOIN FETCH** para evitar el problema N+1
 
-[![Repo](https://img.shields.io/badge/Repositorio-GitHub-100000?style=for-the-badge&logo=github)](https://github.com/whoysAndre)
+[![Repo](https://img.shields.io/badge/Repositorio-GitHub-100000?style=for-the-badge&logo=github)]([https://github.com/whoysAndre](https://github.com/whoysAndre/farmaback-uni.git))
 
 ---
 
