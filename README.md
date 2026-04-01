@@ -55,7 +55,6 @@ const andré = {
 
 [![Backend](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/whoysAndre/airyty-backend.git)
 [![Frontend](https://img.shields.io/badge/Frontend-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://github.com/whoysAndre/airyty-frontend.git)
-[![API Docs](https://img.shields.io/badge/API_Docs-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://airyty-backend.onrender.com/api)
 [![Demo](https://img.shields.io/badge/Demo-Live-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://airyty-frontend.vercel.app)
 
 ---
