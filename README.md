@@ -25,7 +25,7 @@ Mi enfoque: **proyectos reales, desplegados y listos para mostrar en entrevista.
 ```typescript
 const andré = {
   rol:         "Backend Developer — NestJS · TypeScript",
-  principal:   ["NestJS", "TypeScript", "TypeORM", "PostgreSQL", "JWT"],
+  principal:   ["NestJS", "TypeScript", "TypeORM", "PostgreSQL", "Prisma", "JWT"],
   frontend:    ["Next.js", "React", "Tailwind CSS"],
   devops:      ["Docker", "Docker Compose", "Render", "Vercel"],
   ia:          ["Groq (llama-3.1)"],
