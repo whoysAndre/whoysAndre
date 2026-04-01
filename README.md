@@ -37,72 +37,45 @@ const andré = {
 
 ## 🚀 Proyectos
 
-### 🏠 Airbnb Clone — Plataforma de alquiler vacacional
-> Clon funcional completo de Airbnb — el proyecto más representativo de mi nivel técnico
+### 🏠 Airyty — Plataforma de alquiler vacacional (Fullstack)
+> Clon funcional de Airbnb — el proyecto más representativo de mi nivel técnico
 
-**Stack:** NestJS · TypeScript · TypeORM · PostgreSQL · JWT · Guards · Next.js · Docker
+**Backend:** NestJS · TypeScript · Prisma · PostgreSQL · JWT · Passport.js · Cloudinary · Stripe (simulado)
 
-- Arquitectura modular en capas: controllers, services, repositories, DTOs
-- Auth completo con **JWT + Guards + estrategias Passport.js**
-- Roles diferenciados (host / guest) con protección por decoradores
-- Lógica de disponibilidad real en reservas — sin solapamientos
-- Subida de imágenes, filtros de búsqueda y paginación
-- **Docker Compose** — levantable en cualquier máquina en 2 minutos
+**Frontend:** Next.js 16 · React 19 · Tailwind CSS 4 · shadcn/ui · Zustand · React Hook Form · Zod
 
-[![Backend](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/whoysAndre)
-[![Frontend](https://img.shields.io/badge/Frontend-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://github.com/whoysAndre)
-[![Demo](https://img.shields.io/badge/Demo-Live-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/whoysAndre)
+- Arquitectura modular: auth, listings, bookings, payments, reviews, cloudinary
+- Auth completo con **JWT + Guards + estrategias Passport.js** y roles (GUEST / HOST)
+- Lifecycle completo de reservas con máquina de estados: `PENDING → CONFIRMED → COMPLETED / CANCELLED`
+- Detección de conflictos de fechas — sin solapamientos en reservas
+- Pagos con **transacciones atómicas** (`prisma.$transaction`) — pay/refund en un solo bloque
+- Subida de imágenes a **Cloudinary** con cleanup automático al eliminar listings
+- Frontend con drag & drop, galería de imágenes, filtros y paginación
+- Deploy completo: **Render (backend) + Vercel (frontend) + Neon (PostgreSQL)**
 
----
-
-### 🧠 Taskly — Gestor de tareas con IA
-> Kanban en tiempo real con priorización automática por inteligencia artificial
-
-**Stack:** NestJS · TypeScript · PostgreSQL · Next.js · Groq · Pusher · Docker · JWT
-
-- IA con **Groq (llama-3.1)** prioriza tareas con score 1-10 y justificación
-- Procesamiento **asíncrono** — IA corre en background sin bloquear al usuario
-- **Kanban drag & drop** sincronizado en tiempo real con Pusher
-- Auth con JWT y canales privados por usuario
-- Deploy completo en producción: **Render + Vercel + Neon**
-
-[![Backend](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/whoysAndre/taskly-back)
-[![Frontend](https://img.shields.io/badge/Frontend-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://github.com/whoysAndre/taskly-front)
-[![Demo](https://img.shields.io/badge/Demo-taskly--front.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://taskly-front.vercel.app)
+[![Backend](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/whoysAndre/airyty-backend.git)
+[![Frontend](https://img.shields.io/badge/Frontend-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://github.com/whoysAndre/airyty-frontend.git)
+[![API Docs](https://img.shields.io/badge/API_Docs-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://airyty-backend.onrender.com/api)
+[![Demo](https://img.shields.io/badge/Demo-Live-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://airyty-frontend.vercel.app)
 
 ---
 
-## 🛠️ Stack técnico
+### 🛠️ ArtService — Marketplace de desarrolladores freelance
+> API REST para que clientes descubran y contacten desarrolladores — arquitectura producción-ready
 
-### Core — lo que uso a diario
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![TypeORM](https://img.shields.io/badge/TypeORM-FE0902?style=flat-square&logo=typeorm&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Passport.js](https://img.shields.io/badge/Passport.js-34E27A?style=flat-square&logo=passport&logoColor=black)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+**Stack:** NestJS 11 · TypeScript · PostgreSQL · Prisma ORM · Google OAuth2 · JWT · Cloudinary · Resend · Swagger
 
-### Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?style=flat-square&logo=shadcnui&logoColor=white)
+- Auth sin contraseñas: **Google OAuth2 + JWT**
+- Roles diferenciados (CUSTOMER / DEVELOPER) con JWT actualizado al cambiar de rol
+- Búsqueda y filtros de perfiles por especialidad con paginación
+- Subida de foto de perfil y proyectos de portafolio a **Cloudinary**
+- Envío de emails a desarrolladores mediante **Resend**
+- Reviews con restricción de unicidad (`@@unique` a nivel de DB)
+- Validación de env vars con **Joi** al inicio — crash-fast si falta algo
+- Documentación interactiva con **Swagger UI** + `persistAuthorization`
 
-### Bases de datos
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### DevOps & Deploy
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-### IA & Tiempo real
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
-![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=flat-square&logo=pusher&logoColor=white)
+[![Backend](https://img.shields.io/badge/Backend-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://github.com/whoysAndre/artservice-back.git)
+[![API Docs](https://img.shields.io/badge/API_Docs-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://artservice-back.onrender.com/docs)
 
 ---
 
@@ -125,10 +98,12 @@ const andré = {
 |--------|------|
 | ✅ | NestJS — Guards, interceptores, pipes, módulos |
 | ✅ | Auth completo con JWT + Passport.js + roles |
-| ✅ | TypeORM + PostgreSQL — relaciones, migraciones |
+| ✅ | TypeORM + Prisma + PostgreSQL — relaciones, migraciones |
 | ✅ | Docker + Docker Compose |
 | ✅ | Deploy fullstack en producción |
 | ✅ | Integración de IA con Groq en NestJS |
+| ✅ | Google OAuth2 con Passport.js |
+| ✅ | Transacciones atómicas con Prisma |
 | ⬜ | Testing con Jest en NestJS |
 | ⬜ | Arquitectura limpia y hexagonal |
 | ⬜ | Microservicios con NestJS |
